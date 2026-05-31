@@ -1,0 +1,8 @@
+---
+openhab::packages:
+  - 'openhab%5'
+  - 'openhab-addons%5'
+openhab::service_name: 'openhab'
+openhab::service_ensure: 'running'
+openhab::service_enable: true
+
